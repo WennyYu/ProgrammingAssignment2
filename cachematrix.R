@@ -21,7 +21,6 @@ makeCacheMatrix <- function(x = matrix()) {
         list( set= set, get = get, setinverse= setinverse, getinverse= getinverse)
 }
 
-
 ## The second function calculates the mean of the special matrix created with
 ## the above function. It first checks to see if the inverse has already been
 ## calculated.
